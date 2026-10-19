@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | REEVA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="header__logo">
+      <img src="img/reeva-logo.png" alt="REEVA">
+    </a>
+
+    <nav class="nav" aria-label="Principal">
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+        <li><a href="donaciones.html" class="nav__link">Collections Centers</a></li>
+        <li><a href="sobre-reeva.html" class="nav__link">About REEVA</a></li>
+        <li><a href="marketplace.html" class="nav__link">Marketplace</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <a href="login.html" class="icon-btn" aria-label="Iniciar sesión">
+        <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true">
+          <circle cx="12" cy="12" r="11" fill="#fff" stroke="#d42a0a" stroke-width="2"/>
+          <circle cx="12" cy="9.5" r="3.6" fill="#d42a0a"/>
+          <path d="M5.2 19c1.4-3.2 4-4.6 6.8-4.6s5.4 1.4 6.8 4.6A10 10 0 0 1 12 22a10 10 0 0 1-6.800-3z" fill="#d42a0a"/>
+        </svg>
+      </a>
+      <a href="carrito.html" class="icon-btn cart" aria-label="Carrito, 0 productos">
+        <svg viewBox="0 0 24 28" width="34" height="40" aria-hidden="true">
+          <path d="M8 9V7a4 4 0 0 1 8 0v2" fill="none" stroke="#2a86a8" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M3 9h18l1 16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z" fill="#2a86a8"/>
+        </svg>
+        <span class="cart__count">0</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <img class="hero__img"
+           src="https://static.wixstatic.com/media/182391_58c17cdd758f4066882c0af657639505~mv2.png/v1/fill/w_980,h_632,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ChatGPT%20Image%206%20ago%202026%2C%2003_15_13%20p_m_.png"
+           alt="Modelo con sudadera azul marino reciclada con un parche de tiburón ballena y jeans con estrellas">
+      <div class="hero__content">
+        <h1 class="hero__title">Transform your forgotten clothes</h1>
+        <p class="hero__text">REEVA connects people, local talent, and sustainable fashion to give every garment a second life.</p>
+        <div class="hero__buttons">
+          <a href="marketplace.html" class="btn btn--primary">Explore Marketplace</a>
+          <a href="donaciones.html" class="btn btn--outline">Collections Centers</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section impact">
+      <div class="container">
+        <h2 class="section__title">The Impact of Fashion</h2>
+        <p class="section__lead">The textile industry is the most polluting on the planet. Every year, 92 million tons of textile waste pile up, creating a global environmental crisis that needs an urgent response.</p>
+
+        <div class="impact__grid">
+          <article class="stat">
+            <p class="stat__number">85%</p>
+            <p class="stat__label">Percentage of clothing that ends up in landfills.</p>
+          </article>
+
+          <article class="stat">
+            <p class="stat__number">92 millones</p>
+            <p class="stat__label">Toneladas de residuos textiles generadas anualmente.</p>
+          </article>
+
+          <article class="stat">
+            <p class="stat__number">500</p>
+            <p class="stat__label">Diseñadores emergentes que impulsamos a través de REEVA.</p>
+          </article>
+
+          <figure class="impact__photo">
+            <img src="https://static.wixstatic.com/media/470ece_5568b14d756b4d1285fa6e5ceeb31420~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ai-generated-IMAGE.jpg"
+                 alt="Montaña de ropa descartada" loading="lazy">
+          </figure>
+        </div>
+
+        <p class="section__closing">REEVA connects donors, emerging designers, and conscious buyers, driving a circular economy where every garment tells a new story.</p>
+      </div>
+    </section>
+
+    <section class="section solution">
+      <div class="container">
+        <h2 class="section__title">Our Solution</h2>
+        <figure class="solution__photo">
+          <img src="https://static.wixstatic.com/media/470ece_74fa30d493684c6589963098947ae0b3~mv2.png/v1/fill/w_980,h_552,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Equipo%20Preeva%20en%20retrato%20urbano.png"
+               alt="Equipo REEVA en un retrato urbano" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section how">
+      <div class="container">
+        <h2 class="section__title">How It Works</h2>
+        <p class="section__lead">A process designed to close the fashion loop and give new life to every garment.</p>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3 class="step__title">Donation</h3>
+            <p class="step__text">Send your forgotten clothes to our collection centers to start your new story.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3 class="step__title">Transformation</h3>
+            <p class="step__text">Emerging designers reimagine each garment using artisanal upcycling techniques.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <h3 class="step__title">Post</h3>
+            <p class="step__text">Each piece is documented with its story and shared on our digital platform.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">04</span>
+            <h3 class="step__title">Purchase</h3>
+            <p class="step__text">Find your new piece with a story and support our sustainable mission.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ENVIRONMENTAL IMPACT ============ -->
+    <section class="section env">
+      <div class="container">
+        <h2 class="section__title">Environmental Impact</h2>
+        <p class="section__lead">REEVA measures change through action. Every transformed garment prevents a significant impact on the planet.</p>
+
+        <div class="env__grid">
+          <article class="env__card">
+            <h3 class="env__label">Recovered Kilograms</h3>
+            <p class="env__number">12,500 kg</p>
+            <p class="env__text">Textiles saved from landfills and local recycling processes.</p>
+          </article>
+
+          <article class="env__card">
+            <h3 class="env__label">Prendas Transformadas</h3>
+            <p class="env__number">450 garments</p>
+            <p class="env__text">Creaciones únicas diseñadas para darle una segunda vida a la ropa.</p>
+          </article>
+
+          <article class="env__card">
+            <h3 class="env__label">Emisiones Evitadas</h3>
+            <p class="env__number">12.5 T CO₂</p>
+            <p class="env__text">Impacto positivo en el clima al evitar la producción de nuevas prendas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NUESTROS ALIADOS ============ -->
+    <section class="section allies">
+      <div class="container">
+        <h2 class="section__title">Nuestros Aliados</h2>
+        <p class="section__lead">Impulsamos la innovación sostenible a través de la colaboración con instituciones líderes en educación y conservación ambiental.</p>
+
+        <div class="allies__grid">
+          <article class="ally">
+            <img src="https://static.wixstatic.com/media/182391_a3e7b992a8ac4324a69efb316722449a~mv2.png/v1/fill/w_980,h_868,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ChatGPT%20Image%204%20ago%202026%2C%2003_45_57%20p_m__edited.png"
+                 alt="INADEH" loading="lazy">
+            <h3 class="ally__name">INADEH</h3>
+            <p class="ally__text">Institución dedicada a la formación técnica y profesional de jóvenes talentos en el sector de la moda.</p>
+          </article>
+
+          <article class="ally">
+            <img src="https://static.wixstatic.com/media/182391_1b5340e4f988470d90d15d0746dceb02~mv2.png/v1/fill/w_980,h_980,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ChatGPT%20Image%204%20ago%202026%2C%2003_50_02%20p_m__edited.png"
+                 alt="Universidad de Panamá" loading="lazy">
+            <h3 class="ally__name">Universidad de Panamá</h3>
+            <p class="ally__text">Centro de excelencia académica impulsando la innovación y el compromiso social a través de la educación.</p>
+          </article>
+
+          <article class="ally">
+            <img src="https://static.wixstatic.com/media/182391_b10ab1d7bf724bb58f2eea4149a095f9~mv2.png/v1/fill/w_980,h_552,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ChatGPT%20Image%204%20ago%202026%2C%2004_05_03%20p_m_.png"
+                 alt="Centros Comunitarios" loading="lazy">
+            <h3 class="ally__name">Centros Comunitarios</h3>
+            <p class="ally__text">Aliados locales comprometidos con la economía circular y el reuso de materiales textiles.</p>
+          </article>
+
+          <article class="ally">
+            <img src="https://static.wixstatic.com/media/182391_324d8504bfd24672914eccb460fc3bd4~mv2.png/v1/fill/w_980,h_552,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/ChatGPT%20Image%204%20ago%202026%2C%2004_08_43%20p_m_.png"
+                 alt="Organizaciones Ambientales" loading="lazy">
+            <h3 class="ally__name">Organizaciones Ambientales</h3>
+            <p class="ally__text">Partners en la conservación del medio ambiente y la reducción de residuos textiles industriales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo"><img src="img/reeva-logo.png" alt="REEVA"></a>
+        <p>REEVA conecta personas, diseñadores emergentes y moda sostenible para darle una segunda vida a cada prenda.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Contact</h4>
+        <address class="footer__contact">
+          <a href="mailto:contacto@reeva.pa">contacto@reeva.pa</a>
+          <span>Calle de la Innovación 123, Ciudad de Panamá</span>
+          <a href="tel:+50780000000">+507 8000-0000</a>
+        </address>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__title">Follow us</h4>
+        <ul class="social">
+          <li><a href="http://www.facebook.com" aria-label="Facebook">Facebook</a></li>
+          <li><a href="http://www.instagram.com" aria-label="Instagram">Instagram</a></li>
+          <li><a href="http://www.youtube.com" aria-label="YouTube">YouTube</a></li>
+          <li><a href="http://www.x.com" aria-label="X">X</a></li>
+          <li><a href="http://www.linkedin.com" aria-label="LinkedIn">LinkedIn</a></li>
+          <li><a href="http://www.tiktok.com" aria-label="TikTok">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 REEVA. Todos los derechos reservados.</p>
+      <p>Where Every Garment Tells a New Story.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
